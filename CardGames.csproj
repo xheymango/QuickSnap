@@ -181,6 +181,8 @@
     <None Include="Resources\sounds\slap.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\sounds\banana_slap.wav" />
+    <None Include="Resources\sounds\Clash.wav" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
