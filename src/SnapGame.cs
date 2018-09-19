@@ -64,7 +64,7 @@ namespace CardGames
 				SwinGame.DrawText ("Top Card is " + top.ToString (), Color.White, 0, 10);
 				SwinGame.DrawText ("Player 1 score: " + myGame.Score(0), Color.White,"GameFont", 135, 120);
 				SwinGame.DrawText ("Player 2 score: " + myGame.Score(1), Color.White,"GameFont", 500, 120);
-				SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), top.CardIndex, 520, 160);
+				SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), top.CardIndex, 521, 153);
 			}
 			else
 			{
@@ -72,7 +72,7 @@ namespace CardGames
 			}
 
 			// Draw the back of the cards... to represent the deck
-			SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), 52, 245, 160);
+			SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), 52, 155, 153);
 
 			//Draw onto the screen
 			SwinGame.RefreshScreen(60);
